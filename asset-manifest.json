@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/palavra-secreta/static/css/main.aace91e9.css",
-    "main.js": "/palavra-secreta/static/js/main.38af089e.js",
+    "main.css": "/palavra-secreta/static/css/main.6e415c10.css",
+    "main.js": "/palavra-secreta/static/js/main.5d0bb759.js",
     "static/js/787.412fe021.chunk.js": "/palavra-secreta/static/js/787.412fe021.chunk.js",
     "static/media/logo.png": "/palavra-secreta/static/media/logo.f1a864f14907a94e69e5.png",
     "index.html": "/palavra-secreta/index.html",
-    "main.aace91e9.css.map": "/palavra-secreta/static/css/main.aace91e9.css.map",
-    "main.38af089e.js.map": "/palavra-secreta/static/js/main.38af089e.js.map",
+    "main.6e415c10.css.map": "/palavra-secreta/static/css/main.6e415c10.css.map",
+    "main.5d0bb759.js.map": "/palavra-secreta/static/js/main.5d0bb759.js.map",
     "787.412fe021.chunk.js.map": "/palavra-secreta/static/js/787.412fe021.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aace91e9.css",
-    "static/js/main.38af089e.js"
+    "static/css/main.6e415c10.css",
+    "static/js/main.5d0bb759.js"
   ]
 }
