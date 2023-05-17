@@ -22,10 +22,12 @@ const Game = ({
     return (
         <div className='game'>
             <h1>Adivinhe a palavra:</h1>
-            <h3 className='tipo'>
-                Dica sobre a palavra: <span>{pegaCategoria}</span>
-                <p>Você ainda tem <span className={chances < 5 && chances >= 3 ? 'shake' : 'chances' && chances < 3 ? 'danger' : 'chances'}>{chances}</span> tentativa(s).</p>
-            </h3>
+    <h3 className='tipo'>
+    Dica sobre a palavra: <span>{pegaCategoria}</span>
+        <p>
+        Você ainda tem{" "}<span className={chances < 5 && chances >= 3 ? "shake" : (chances < 3 ? "danger" : "chances")}>{chances}</span>{" "}tentativa(s).
+        </p>
+    </h3>
 
             <div className='ContainerPalavras'>
                 {letras.map((letra, i) => ( // pega as letras
