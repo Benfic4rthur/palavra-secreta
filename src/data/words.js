@@ -19,7 +19,6 @@ export const wordsList = {
     ],
     fruta: [
         'Banana',
-        'Maçã',
         'Pêra',
         'Mamão',
         'Laranja',
@@ -40,10 +39,8 @@ export const wordsList = {
         'Caju',
     ],
     corpo: [
-        'Braço',
         'Perna',
         'Cérebro',
-        'Pescoço',
         'Olhos',
         'Cabelo',
         'Cintura',
@@ -55,6 +52,9 @@ export const wordsList = {
         'Dedo',
         'Barba',
         'Cotovelo',
+        'nuca',
+        'dentes',
+        'unhas',
     ],
     computador: [
         'Mouse',
@@ -72,7 +72,6 @@ export const wordsList = {
         'Gráficos-Integrados',
         'Ethernet',
         'Wi-Fi',
-        ,
         'Placa-de-Video',
     ],
     programação: [
@@ -113,7 +112,7 @@ export const wordsList = {
         'Presunto',
         'Manteiga',
         'Macarrão',
-        'Açúcar',
+        'sal',
         'Mel',
         'Iogurte',
         'Sorvete',
