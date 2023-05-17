@@ -93,12 +93,23 @@ h3 p {
 }
 
 .tipo .chances{
-    color: red;
+    color: #ecfa00;
     font-size: 3em;
+    animation: balancinho .75s alternate;
 }
 
 .tipo .shake {
     animation: balancinho .75s alternate;
+    color: orange;
+    font-size: 3em;
+}
+
+.tipo .danger{
+    animation: balancinho .75s alternate;
     color: red;
     font-size: 3em;
+}
+
+.tipo .perigo{
+    color: blue;
 }
