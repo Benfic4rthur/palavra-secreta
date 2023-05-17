@@ -98,6 +98,7 @@ function App() {
         // condição de vitoria
         if (letrasAdivinhadas.length === letrasUnicas.length && gameStage === stages[1].name) {
             setPontos(pontosAtuais => (pontosAtuais += 100));
+            setChances( chancesAtuais => chancesAtuais + 1);
             // reinicia o jogo
             startGame();
         }

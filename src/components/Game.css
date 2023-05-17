@@ -1,25 +1,35 @@
-.game h1{
+.game h1 {
     font-size: 2.5em;
     margin-top: 50px;
 }
-.pontos{
+
+.pontos {
     margin-top: 150px;
 }
-.pontos span{
+
+.pontos span {
     font-size: 1.5em;
     font-weight: bold;
 }
-.tipo span{
+
+.tipo span {
     color: #ecfa00;
 }
-.ContainerPalavras{
+
+.ContainerPalavras {
     margin: 1.5em;
     padding: 1.5em;
     border: 20px solid #ecfa00;
     display: flex;
     border-radius: 25px;
 }
-.letra, .quadradoBranco{
+
+.letra {
+    animation: balancinho .75s alternate;
+}
+
+.letra,
+.quadradoBranco {
     font-size: 70px;
     line-height: 1.5;
     border: 3px solid #000;
@@ -31,25 +41,64 @@
     font-weight: bold;
     border-radius: 20px;
 }
-.ContainerLetra p{
+
+.ContainerLetra p {
     margin-bottom: 1.2em;
 }
-.ContainerLetra form{
+
+.ContainerLetra form {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.ContainerLetra input{
+
+.ContainerLetra input {
     height: 50px;
     width: 50px;
     font-size: 2em;
     text-align: center;
     margin-right: 1em;
+    animation: balancinho .75s alternate;
 }
-.letraErrada{
+
+.letraErrada {
     font-size: 2em;
     color: red;
 }
-h3 p{
+
+h3 p {
     margin-top: 25px;
+}
+
+@keyframes balancinho {
+    0% {
+        transform: rotate(0);
+    }
+
+    25% {
+        transform: rotate(10deg);
+    }
+
+    50% {
+        transform: rotate(-10deg);
+    }
+
+    75% {
+        transform: rotate(5deg);
+    }
+
+    100% {
+        transform: rotate(0);
+    }
+}
+
+.tipo .chances{
+    color: red;
+    font-size: 3em;
+}
+
+.tipo .shake {
+    animation: balancinho .75s alternate;
+    color: red;
+    font-size: 3em;
 }

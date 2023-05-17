@@ -24,7 +24,7 @@ const Game = ({
             <h1>Adivinhe a palavra:</h1>
             <h3 className='tipo'>
                 Dica sobre a palavra: <span>{pegaCategoria}</span>
-                <p>Você ainda tem {chances} tentativa(s).</p>
+                <p>Você ainda tem <span className='chances'>{chances}</span> tentativa(s).</p>
             </h3>
 
             <div className='ContainerPalavras'>
