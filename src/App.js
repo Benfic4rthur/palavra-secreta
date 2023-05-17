@@ -47,10 +47,9 @@ function App() {
         // desmancha palavra
         let desmanchaPalavra = palavra.split(''); // desmancha palavra
         desmanchaPalavra = desmanchaPalavra.map(l => l.toLowerCase()); // transforma em minusculo a primeira letra
-        // remove acentos
-        desmanchaPalavra = desmanchaPalavra.map(l =>
-            l.normalize('NFD').replace(/[\u0300-\u036f]/g, ''),
-        );
+        // remove acentos nas palavras e permite c ou ç
+        desmanchaPalavra = desmanchaPalavra.map(l => l.normalize('NFD').replace(/[\u0300-\u036f]/g, ''));
+        // consola palavra e categoria
         console.log(`Palavra: ${palavra} - Categoria: ${categoria}`); // imprime palavra e categoria
         // seta status
         setPegaPalavra(palavra); // seta palavra
