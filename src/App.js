@@ -51,7 +51,7 @@ function App() {
         desmanchaPalavra = desmanchaPalavra.map(l =>
             l.normalize('NFD').replace(/[\u0300-\u036f]/g, ''),
         );
-        console.log(`Palavra: ${palavra} da categoria: ${categoria}`); // imprime palavra e categoria
+        console.log(`Palavra: ${palavra} - Categoria: ${categoria}`); // imprime palavra e categoria
         // seta status
         setPegaPalavra(palavra); // seta palavra
         setPegaCategoria(categoria); // seta categoria
@@ -98,7 +98,7 @@ function App() {
         // condição de vitoria
         if (letrasAdivinhadas.length === letrasUnicas.length && gameStage === stages[1].name) {
             setPontos(pontosAtuais => (pontosAtuais += 100));
-            setChances( chancesAtuais => chancesAtuais + 1);
+            setChances(chancesAtuais => chancesAtuais + 1);
             // reinicia o jogo
             startGame();
         }
