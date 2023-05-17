@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/palavra-secreta/static/css/main.1fd15374.css",
-    "main.js": "/palavra-secreta/static/js/main.89169b04.js",
+    "main.js": "/palavra-secreta/static/js/main.6ed1dc4c.js",
     "static/js/787.412fe021.chunk.js": "/palavra-secreta/static/js/787.412fe021.chunk.js",
     "static/media/logo.png": "/palavra-secreta/static/media/logo.f1a864f14907a94e69e5.png",
     "index.html": "/palavra-secreta/index.html",
     "main.1fd15374.css.map": "/palavra-secreta/static/css/main.1fd15374.css.map",
-    "main.89169b04.js.map": "/palavra-secreta/static/js/main.89169b04.js.map",
+    "main.6ed1dc4c.js.map": "/palavra-secreta/static/js/main.6ed1dc4c.js.map",
     "787.412fe021.chunk.js.map": "/palavra-secreta/static/js/787.412fe021.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1fd15374.css",
-    "static/js/main.89169b04.js"
+    "static/js/main.6ed1dc4c.js"
   ]
 }
