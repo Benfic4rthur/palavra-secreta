@@ -1,0 +1,55 @@
+.game h1{
+    font-size: 2.5em;
+    margin-top: 50px;
+}
+.pontos{
+    margin-top: 150px;
+}
+.pontos span{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.tipo span{
+    color: #ecfa00;
+}
+.ContainerPalavras{
+    margin: 1.5em;
+    padding: 1.5em;
+    border: 20px solid #ecfa00;
+    display: flex;
+    border-radius: 25px;
+}
+.letra, .quadradoBranco{
+    font-size: 70px;
+    line-height: 1.5;
+    border: 3px solid #000;
+    height: 100px;
+    width: 100px;
+    text-transform: uppercase;
+    background-color: aliceblue;
+    color: #000;
+    font-weight: bold;
+    border-radius: 20px;
+}
+.ContainerLetra p{
+    margin-bottom: 1.2em;
+}
+.ContainerLetra form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ContainerLetra input{
+    height: 50px;
+    width: 50px;
+    font-size: 2em;
+    text-align: center;
+    margin-right: 1em;
+}
+.letraErrada{
+    font-size: 2em;
+    color: red;
+}
+h3 p{
+    margin-top: 25px;
+}
